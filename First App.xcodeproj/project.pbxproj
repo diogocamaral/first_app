@@ -44,6 +44,7 @@
 		D9CBDEAC1AEBF2E800D986F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CBDEAB1AEBF2E800D986F5 /* Images.xcassets */; };
 		D9CBDEAF1AEBF2E800D986F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9CBDEAD1AEBF2E800D986F5 /* LaunchScreen.xib */; };
 		D9CBDEBB1AEBF2E800D986F5 /* First_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBDEBA1AEBF2E800D986F5 /* First_AppTests.swift */; };
+		D9CE8B811AFE82C800F6159B /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE8B801AFE82C800F6159B /* LearnViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		D9CBDEB41AEBF2E800D986F5 /* First AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CBDEB91AEBF2E800D986F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9CBDEBA1AEBF2E800D986F5 /* First_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_AppTests.swift; sourceTree = "<group>"; };
+		D9CE8B801AFE82C800F6159B /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				D9CBDEA11AEBF2E800D986F5 /* AppDelegate.swift */,
 				D9CBDEA61AEBF2E800D986F5 /* ViewController.swift */,
 				D936541C1AF0631000A41158 /* LoginViewController.swift */,
+				D9CE8B801AFE82C800F6159B /* LearnViewController.swift */,
 				D9CBDEA81AEBF2E800D986F5 /* Main.storyboard */,
 				D9CBDEAB1AEBF2E800D986F5 /* Images.xcassets */,
 				D9CBDEAD1AEBF2E800D986F5 /* LaunchScreen.xib */,
@@ -322,6 +325,7 @@
 				D914A9BA1AEC30B300CA5790 /* AutoTextView.swift in Sources */,
 				D914A9C31AEC30B300CA5790 /* ImageLoader.swift in Sources */,
 				D914A9C81AEC30B300CA5790 /* Misc.swift in Sources */,
+				D9CE8B811AFE82C800F6159B /* LearnViewController.swift in Sources */,
 				D914A9BB1AEC30B300CA5790 /* BlurView.swift in Sources */,
 				D914A9D41AEC30B300CA5790 /* UnwindSegue.swift in Sources */,
 				D914A9C61AEC30B300CA5790 /* LoadingView.swift in Sources */,
