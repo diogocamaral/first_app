@@ -37,13 +37,16 @@
 		D914A9D31AEC30B300CA5790 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D914A9B61AEC30B300CA5790 /* TransitionZoom.swift */; };
 		D914A9D41AEC30B300CA5790 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D914A9B71AEC30B300CA5790 /* UnwindSegue.swift */; };
 		D936541D1AF0631000A41158 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936541C1AF0631000A41158 /* LoginViewController.swift */; };
+		D9AE0EDB1B00302600BF393D /* GooglePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0EDA1B00302600BF393D /* GooglePageViewController.swift */; };
 		D9CBDEA21AEBF2E800D986F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBDEA11AEBF2E800D986F5 /* AppDelegate.swift */; };
 		D9CBDEA51AEBF2E800D986F5 /* First_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9CBDEA31AEBF2E800D986F5 /* First_App.xcdatamodeld */; };
-		D9CBDEA71AEBF2E800D986F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBDEA61AEBF2E800D986F5 /* ViewController.swift */; };
 		D9CBDEAA1AEBF2E800D986F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CBDEA81AEBF2E800D986F5 /* Main.storyboard */; };
 		D9CBDEAC1AEBF2E800D986F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CBDEAB1AEBF2E800D986F5 /* Images.xcassets */; };
 		D9CBDEAF1AEBF2E800D986F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9CBDEAD1AEBF2E800D986F5 /* LaunchScreen.xib */; };
 		D9CBDEBB1AEBF2E800D986F5 /* First_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBDEBA1AEBF2E800D986F5 /* First_AppTests.swift */; };
+		D9CD45461B02DA4300ABEED4 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD45451B02DA4300ABEED4 /* StoryTableViewCell.swift */; };
+		D9CDCDFA1B0164EE00EF8DD8 /* StoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDCDF91B0164EE00EF8DD8 /* StoriesTableViewController.swift */; };
+		D9CDCDFC1B017FEE00EF8DD8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDCDFB1B017FEE00EF8DD8 /* MenuViewController.swift */; };
 		D9CE8B811AFE82C800F6159B /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE8B801AFE82C800F6159B /* LearnViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,17 +92,20 @@
 		D914A9B61AEC30B300CA5790 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		D914A9B71AEC30B300CA5790 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
 		D936541C1AF0631000A41158 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D9AE0EDA1B00302600BF393D /* GooglePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePageViewController.swift; sourceTree = "<group>"; };
 		D9CBDE9C1AEBF2E800D986F5 /* First App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CBDEA01AEBF2E800D986F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9CBDEA11AEBF2E800D986F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9CBDEA41AEBF2E800D986F5 /* First_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = First_App.xcdatamodel; sourceTree = "<group>"; };
-		D9CBDEA61AEBF2E800D986F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9CBDEA91AEBF2E800D986F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9CBDEAB1AEBF2E800D986F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D9CBDEAE1AEBF2E800D986F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D9CBDEB41AEBF2E800D986F5 /* First AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CBDEB91AEBF2E800D986F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9CBDEBA1AEBF2E800D986F5 /* First_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_AppTests.swift; sourceTree = "<group>"; };
+		D9CD45451B02DA4300ABEED4 /* StoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		D9CDCDF91B0164EE00EF8DD8 /* StoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesTableViewController.swift; sourceTree = "<group>"; };
+		D9CDCDFB1B017FEE00EF8DD8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		D9CE8B801AFE82C800F6159B /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,9 +187,12 @@
 			children = (
 				D914A9991AEC30B300CA5790 /* Spring */,
 				D9CBDEA11AEBF2E800D986F5 /* AppDelegate.swift */,
-				D9CBDEA61AEBF2E800D986F5 /* ViewController.swift */,
+				D9CD45451B02DA4300ABEED4 /* StoryTableViewCell.swift */,
+				D9CDCDF91B0164EE00EF8DD8 /* StoriesTableViewController.swift */,
+				D9CDCDFB1B017FEE00EF8DD8 /* MenuViewController.swift */,
 				D936541C1AF0631000A41158 /* LoginViewController.swift */,
 				D9CE8B801AFE82C800F6159B /* LearnViewController.swift */,
+				D9AE0EDA1B00302600BF393D /* GooglePageViewController.swift */,
 				D9CBDEA81AEBF2E800D986F5 /* Main.storyboard */,
 				D9CBDEAB1AEBF2E800D986F5 /* Images.xcassets */,
 				D9CBDEAD1AEBF2E800D986F5 /* LaunchScreen.xib */,
@@ -331,7 +340,7 @@
 				D914A9C61AEC30B300CA5790 /* LoadingView.swift in Sources */,
 				D914A9CF1AEC30B300CA5790 /* SpringTextField.swift in Sources */,
 				D914A9CA1AEC30B300CA5790 /* Spring.swift in Sources */,
-				D9CBDEA71AEBF2E800D986F5 /* ViewController.swift in Sources */,
+				D9CDCDFC1B017FEE00EF8DD8 /* MenuViewController.swift in Sources */,
 				D914A9C91AEC30B300CA5790 /* SoundPlayer.swift in Sources */,
 				D914A9C21AEC30B300CA5790 /* DesignableView.swift in Sources */,
 				D936541D1AF0631000A41158 /* LoginViewController.swift in Sources */,
@@ -341,17 +350,20 @@
 				D914A9D31AEC30B300CA5790 /* TransitionZoom.swift in Sources */,
 				D914A9C01AEC30B300CA5790 /* DesignableTextField.swift in Sources */,
 				D914A9D21AEC30B300CA5790 /* TransitionManager.swift in Sources */,
+				D9AE0EDB1B00302600BF393D /* GooglePageViewController.swift in Sources */,
 				D914A9CE1AEC30B300CA5790 /* SpringLabel.swift in Sources */,
 				D914A9B81AEC30B300CA5790 /* AsyncButton.swift in Sources */,
 				D914A9B91AEC30B300CA5790 /* AsyncImageView.swift in Sources */,
 				D914A9C11AEC30B300CA5790 /* DesignableTextView.swift in Sources */,
 				D914A9D11AEC30B300CA5790 /* SpringView.swift in Sources */,
 				D914A9D01AEC30B300CA5790 /* SpringTextView.swift in Sources */,
+				D9CDCDFA1B0164EE00EF8DD8 /* StoriesTableViewController.swift in Sources */,
 				D914A9C51AEC30B300CA5790 /* KeyboardLayoutConstraint.swift in Sources */,
 				D914A9CC1AEC30B300CA5790 /* SpringButton.swift in Sources */,
 				D914A9CB1AEC30B300CA5790 /* SpringAnimation.swift in Sources */,
 				D914A9BD1AEC30B300CA5790 /* DesignableImageView.swift in Sources */,
 				D9CBDEA21AEBF2E800D986F5 /* AppDelegate.swift in Sources */,
+				D9CD45461B02DA4300ABEED4 /* StoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
