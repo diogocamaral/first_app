@@ -81,7 +81,7 @@
                                                 <color key="titleShadowColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                             </state>
                                             <connections>
-                                                <action selector="commentsButtonDidTouch:" destination="FS3-R3-L3A" eventType="touchUpInside" id="nxR-3M-k0D"/>
+                                                <action selector="commentButtonDidTouch:" destination="FS3-R3-L3A" eventType="touchUpInside" id="aOv-Ai-K6z"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -110,7 +110,7 @@
                                     <outlet property="authorLabel" destination="pJx-Mk-Kab" id="9Gf-MX-51j"/>
                                     <outlet property="avatarImageView" destination="FkZ-36-r1e" id="QfX-mF-W7I"/>
                                     <outlet property="badgeImageView" destination="cvz-ZR-Kox" id="m7l-Ls-Qmo"/>
-                                    <outlet property="commentsButton" destination="3ga-5W-bBd" id="fZo-4E-RdM"/>
+                                    <outlet property="commentButton" destination="3ga-5W-bBd" id="Jk4-6x-ssn"/>
                                     <outlet property="timeLabel" destination="Khf-6y-YRV" id="W9b-Cv-g5U"/>
                                     <outlet property="titleLabel" destination="SsK-Ky-aEB" id="c6T-Gu-6Ee"/>
                                     <outlet property="upvoteButton" destination="wIh-gs-xCO" id="ait-xB-Oxd"/>

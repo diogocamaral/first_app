@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StoriesTableViewController: UITableViewController {
+class StoriesTableViewController: UITableViewController, StoryTableViewCellDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,8 +41,10 @@ class StoriesTableViewController: UITableViewController {
         cell.authorLabel.text = "Diogo Carvalhais do Amaral"
         cell.avatarImageView.image = UIImage(named: "content-avatar-default")
         cell.upvoteButton.setTitle("340", forState: UIControlState.Normal)
-        cell.commentsButton.setTitle("187", forState: UIControlState.Normal)
+        cell.commentButton.setTitle("214", forState: UIControlState.Normal)
         
+        cell.delegate = self
+
         return cell
     }
     
@@ -50,6 +52,16 @@ class StoriesTableViewController: UITableViewController {
         performSegueWithIdentifier("WebSegue", sender: self)
         
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
+    }
+    
+    // MARK: StoryTableViewCellDelegate
+    
+    func storyTableViewCellDidTouchUpvote(cell: StoryTableViewCell, sender: AnyObject) {
+        // TODO: Implement Segue
+    }
+    
+    func storyTableViewCellDidTouchComment(cell: StoryTableViewCell, sender: AnyObject) {
+        performSegueWithIdentifier("CommentsSegue", sender: self)
     }
 
 }
