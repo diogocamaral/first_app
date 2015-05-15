@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>381C0A05-1459-4A1C-B213-9F817425DC01</string>
 	<key>IDESourceControlProjectName</key>
-	<string>First App</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>EDAD62FBD27BC60669EB620DABC1189DE375528F</key>
 		<string>github.com:diogocamaral/first_app.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>First App.xcodeproj</string>
+	<string>First App.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EDAD62FBD27BC60669EB620DABC1189DE375528F</key>

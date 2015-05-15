@@ -28,20 +28,15 @@ class StoriesTableViewController: UITableViewController, StoryTableViewCellDeleg
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return data.count
     }
     
     // Content Cell
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("StoryCell") as! StoryTableViewCell
         
-        cell.titleLabel.text = "Diogo é foda pra caralho"
-        cell.badgeImageView.image = UIImage(named: "badge-apple")
-        cell.timeLabel.text = "4m"
-        cell.authorLabel.text = "Diogo Carvalhais do Amaral"
-        cell.avatarImageView.image = UIImage(named: "content-avatar-default")
-        cell.upvoteButton.setTitle("340", forState: UIControlState.Normal)
-        cell.commentButton.setTitle("214", forState: UIControlState.Normal)
+        let story = data[indexPath.row]
+        cell.configureWithStory(story)
         
         cell.delegate = self
 
@@ -61,7 +56,17 @@ class StoriesTableViewController: UITableViewController, StoryTableViewCellDeleg
     }
     
     func storyTableViewCellDidTouchComment(cell: StoryTableViewCell, sender: AnyObject) {
-        performSegueWithIdentifier("CommentsSegue", sender: self)
+        performSegueWithIdentifier("CommentsSegue", sender: cell)
+    }
+    
+    // MARK: Misc
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "CommentsSegue" {
+            let toView = segue.destinationViewController as! CommentsTableViewController
+            let indexPath = tableView.indexPathForCell(sender as! UITableViewCell)!
+            toView.story = data[indexPath.row]
+        }
     }
 
 }
